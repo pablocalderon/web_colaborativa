@@ -26,3 +26,30 @@ git push
 
 Se agrega el README.md
     git add README.md
+    git commit -m "docs(readme): actualiza instrucciones del proyecto"
+    git push
+
+    Crear una nueva rama:
+
+    verificar cual es su rama
+        git branch
+    cambiar a la rama Main o Master:
+        git checkout master 
+    crear la nueva rama:
+        git branch lopez
+    cambiar a la nueva rama:
+        git checkout lopez
+    berificamos que estamos en la nueva rama:
+        git branch
+   Subir la rama lopez a GitHub:
+    git push -u origin lopez
+
+    Crear la nueva rama desde master a calderon
+        git checkout -b calderon
+    Subir contenido a la nueva rama calderon:
+        sugit push -u origin calderon
+
+    Actualiza tu copia local desde GitHub de Master.
+        git pull origin master
+    Verifica que todo esté actualizado:
+        git status
