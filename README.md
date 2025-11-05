@@ -23,3 +23,6 @@ Comandos para el ejemplo:
 git add /components/modulo-clientes.tsx
 git commit -m "feat(components): agrega componente modulo-clientes"
 git push
+
+Se agrega el README.md
+    git add README.md
