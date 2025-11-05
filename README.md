@@ -53,3 +53,8 @@ Se agrega el README.md
         git pull origin master
     Verifica que todo esté actualizado:
         git status
+
+Comparar ramas desde la terminal
+    git diff master calderon
+Ver solo los archivos modificados entre ramas
+    git diff --name-only master calderon    
